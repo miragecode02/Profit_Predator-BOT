@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+env/
+.venv/
+
+# Secrets — CRITICAL: your bot.py reads API keys from environment variables
+# Never commit a .env file if you create one for your keys
+.env
+*.env
+
+# Backtest output files
+*.html
+SmcStrategy.html
+*.csv
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
